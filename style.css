@@ -7,13 +7,13 @@
   background: rgba(229, 84, 115, 0.1);
   display: flex;
   align-items: center;
-  padding: 30px 0px 0px 0px  ;
+  padding: 30px 0px 0px 0px;
 }
 .header .header-pic {
-    width: 635px;
-    height: 800px;
-  }
-  
+  width: 635px;
+  height: 800px;
+}
+
 .title {
   display: block;
   padding-left: 20px;
@@ -43,4 +43,24 @@
   font-size: 20px;
   font-weight: 700;
 }
-/* main style design */
+/* main section style */
+.feature-flower{
+    margin: 178px 0;
+}
+.section-titile {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.pink-flower{
+    margin: 180px 0;
+}
