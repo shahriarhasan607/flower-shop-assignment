@@ -1,0 +1,46 @@
+/* header styles  */
+.body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 30px 0px 0px 0px  ;
+}
+.header .header-pic {
+    width: 635px;
+    height: 800px;
+  }
+  
+.title {
+  display: block;
+  padding-left: 20px;
+}
+.nav-h1 {
+  color: #272727;
+  width: 708px;
+  font-size: 80px;
+  font-weight: 800;
+}
+.nav-p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 634px;
+}
+.button-primary {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* main style design */
