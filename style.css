@@ -20,13 +20,18 @@
 }
 .nav-h1 {
   color: #272727;
-  width: 708px;
+  font-family: Lato;
   font-size: 80px;
+  font-style: normal;
   font-weight: 800;
+  line-height: normal;
+  width: 708px;
 }
 .nav-p {
   color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 30px;
   width: 634px;
@@ -41,8 +46,11 @@
   background: #e55473;
   border: 0;
   color: #fff;
+  font-family: Lato;
   font-size: 20px;
+  font-style: normal;
   font-weight: 700;
+  line-height: normal;
 }
 /* main section style */
 .feature-flower {
@@ -99,22 +107,47 @@
   margin-bottom: -4px;
   width: 295px;
   height: 385px;
-  .flower-heading {
-    margin-top: 30px;
-  }
+}
+.flower-heading {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
 
 /* delivery-section styles */
-.delivery-section {
+.delivery{
   border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
-  width: 1440px;
-  height: 320px;
-  flex-shrink: 0;
-  padding: 50px 240px 50px 240px;
+background: rgba(39, 39, 39, 0.05);
+width: 1140px;
+height: 220px;
+flex-shrink: 0;
+border-left: 240px;
+border-right: 240px;
+display: flex;
+margin-left: 200px;
+margin-top: 50px ;
 }
-.picture {
-  display: inline;
-  margin-left: 230px;
-  margin-top: 150px;
+.table-image{
+  display: flex;
+}
+.details{
+  color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+display: inline-flex;
+/* margin-top: 95px; */
+}
+.icon{
+  margin-top: 40px;
+  margin-left: 150px;
+  flex-direction: column;
 }
