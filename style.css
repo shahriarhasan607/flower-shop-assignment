@@ -32,6 +32,7 @@
   width: 634px;
 }
 .button-primary {
+  margin-top: 32px;
   display: inline-flex;
   padding: 20px 43px;
   align-items: flex-start;
@@ -44,23 +45,76 @@
   font-weight: 700;
 }
 /* main section style */
-.feature-flower{
-    margin: 178px 0;
+.feature-flower {
+  margin-top: 120px;
 }
-.section-titile {
+.feature-content {
   color: #272727;
   text-align: center;
   font-family: Lato;
   font-size: 40px;
   font-weight: 800;
 }
-.section-description {
+.feature-description {
+  width: 594px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
+  font-family: Lato;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  padding-left: 453px;
+  padding-right: 663px;
 }
-.pink-flower{
-    margin: 180px 0;
+/* Flower section style */
+.flower-content {
+  display: flex;
+  margin-top: 120px;
+}
+.flower-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+.pink-flower {
+  background-color: #f1dde7;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  padding: 20% 15% 0% 15%;
+}
+.red-flower {
+  background-color: #d9eff0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 20% 15% 0% 15%;
+}
+.yellow-flower {
+  background: rgba(71, 125, 17, 0.15);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 20% 15% 0% 15%;
+}
+.flower-image {
+  margin-bottom: -4px;
+  width: 295px;
+  height: 385px;
+  .flower-heading {
+    margin-top: 30px;
+  }
+}
+
+/* delivery-section styles */
+.delivery-section {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 1440px;
+  height: 320px;
+  flex-shrink: 0;
+  padding: 50px 240px 50px 240px;
+}
+.picture {
+  display: inline;
+  margin-left: 230px;
+  margin-top: 150px;
 }
