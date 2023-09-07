@@ -161,7 +161,7 @@
   border-radius: 8px; */
   background: rgba(229, 84, 115, 0.05);
 }
-.resize{
+.resize {
   margin-left: 150px;
   padding-top: 20px;
 }
@@ -218,17 +218,17 @@
   margin-top: 50px;
 }
 /* instagram section styles */
-.instagram-content{
+.instagram-content {
   color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-top: 128px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 128px;
 }
-.instagram-description{
+.instagram-description {
   width: 594px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -244,19 +244,100 @@ margin-top: 128px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%; 
-  margin: 0 auto; 
-  margin-top: 128px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 95px;
 }
-
-
 .photo {
   flex: 1;
-  padding: 10px; 
-  box-sizing: border-box; 
+  padding: 10px;
+  box-sizing: border-box;
 }
-
 .photo img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
+}
+/* last pic style */
+.container {
+  position: relative;
+  width: 600px;
+  margin: 128px auto;
+  width: 1440px;
+  height: 449px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.subscribe-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.form-1 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.form-2 {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.email-input {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+  /* display: inline; */
+  color: rgba(39, 39, 39, 0.192);
+  text-align: center;
+  font-family: Lato;
+}
+
+.subscribe-button {
+  /* padding: 10px 20px;
+  background-color: #E55473;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; */
+  margin-top: 32px;
+  /* display: inline-flex; */
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+.emai-1{
+  display: inline;
 }
