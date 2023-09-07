@@ -153,12 +153,11 @@
 }
 /* second header styles */
 .hot-deal {
+  padding-top: 150px;
   position: relative;
   margin-top: 130px;
   width: 1922px;
   height: 620px;
-  /* flex-shrink: 0;
-  border-radius: 8px; */
   background: rgba(229, 84, 115, 0.05);
 }
 .resize {
@@ -367,8 +366,6 @@ background: #111010;
   font-size: 48px;
   font-weight: 800;
   padding-top: 110px;
-  /* font-style: normal;
-  line-height: normal; */
 }
 .footer-2{
   margin-top: 50px;
